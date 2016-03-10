@@ -6,12 +6,15 @@ var config = require('./webpack.config');
 var app = express();
 var compiler = webpack(config);
 
+//use in webpack development mode
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
 }));
-
 app.use(require('webpack-hot-middleware')(compiler));
+
+//use in webpack production mode
+//app.use(express.static(__dirname));
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
