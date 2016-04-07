@@ -3,7 +3,6 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import Header from '../components/Header';
 import Content from '../components/Content';
-import Footer from '../components/Footer';
 import * as Actions from '../actions';
 
 class App extends Component{
@@ -13,7 +12,6 @@ class App extends Component{
             <div>
                 <Header actions={actions} />
                 <Content todos={todos} actions={actions} />
-                <Footer />
             </div>
         );
     }

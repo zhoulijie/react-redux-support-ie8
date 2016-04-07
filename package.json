@@ -1,7 +1,7 @@
 {
   "name": "redux-react-supportIE8-template",
   "version": "1.0.0",
-  "description": "React support IE8",
+  "description": "react-redux work in IE8",
   "main": "./src/index.js",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,12 @@
     "build": "npm run build:webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhoulijie/react-redux-support-ie8.git"
+  },
   "author": "iVan <jiestyle21@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "console-polyfill": "^0.2.2",
     "es5-shim": "^4.4.1",
@@ -20,7 +25,9 @@
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.4.0",
-    "redux": "^3.3.1"
+    "redux": "^3.3.1",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1"
   },
   "devDependencies": {
     "babel-loader": "^6.2.0",

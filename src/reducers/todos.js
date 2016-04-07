@@ -3,7 +3,7 @@ import * as Actions from '../actions';
 import objectAssign from 'object-assign';
 
 const initialState = [{
-    text : 'what\'s fuck!',
+    text : 'Hello Ivan!',
     completed : false,
     id : 1
 }]
