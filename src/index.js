@@ -1,9 +1,4 @@
-require('es5-shim');
-require('es5-shim/es5-sham');
-require('console-polyfill');
-require('es6-promise');
 require('fetch-ie8');
-
 
 const React = require('react');
 const render = require('react-dom').render;
