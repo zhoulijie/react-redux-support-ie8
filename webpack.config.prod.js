@@ -19,9 +19,16 @@ module.exports = {
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
-      compressor: {
+      mangle: false,
+      compress: {
+        screw_ie8:false,
         warnings: false
-      }
+      },
+      // https://github.com/mishoo/UglifyJS2/blob/master/lib/output.js
+       output:{
+                "quote_keys": true,
+                "screw_ie8":false
+              }
     })
   ],
   module: {
