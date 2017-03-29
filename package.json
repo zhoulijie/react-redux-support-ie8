@@ -1,5 +1,5 @@
 {
-  "name": "redux-react-supportIE8-template",
+  "name": "douyu-weibo",
   "version": "1.0.0",
   "description": "react-redux work in IE8",
   "main": "./src/index.js",
@@ -11,23 +11,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhoulijie/react-redux-support-ie8.git"
+    "url": ""
   },
-  "author": "iVan <jiestyle21@gmail.com>",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "console-polyfill": "^0.2.3",
     "es5-shim": "^4.5.9",
     "eventsource-polyfill": "^0.9.6",
     "fetch-ie8": "^1.4.0",
+    "history": "^2.0.1",
     "object-assign": "^4.0.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.4.0",
-    "react-router": "^1.0.3",
+    "react-router": "^2.3.0",
     "redux": "^3.3.1",
     "redux-logger": "^2.6.1",
-    "redux-thunk": "^2.0.1"
+    "redux-thunk": "^2.0.1",
+    "styled-components": "^1.4.4"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -39,6 +41,9 @@
     "cross-env": "^1.0.6",
     "es3ify-loader": "^0.1.0",
     "express": "^4.13.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.28.0",
     "webpack": "^1.12.9",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0"

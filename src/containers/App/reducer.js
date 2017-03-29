@@ -1,5 +1,5 @@
-import * as Types from '../constants/actionTypes';
-import * as Actions from '../actions';
+import * as Types from './const';
+import * as Actions from './action';
 import objectAssign from 'object-assign';
 
 const initialState = [{

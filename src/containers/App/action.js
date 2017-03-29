@@ -1,4 +1,4 @@
-import * as types from '../constants/actionTypes'
+import * as types from './const'
 
 export function addTodo(text) {
   return { type: types.ADD_TODO, text }
