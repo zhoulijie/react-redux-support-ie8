@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/zhoulijie/react-redux-support-ie8.git"
   },
-  "author": "",
+  "author": "iVan <jiestyle21@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "console-polyfill": "^0.2.3",
