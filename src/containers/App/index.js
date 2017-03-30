@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import Content from '../../components/Content';
+// import Content from '../../components/Content';
 import Header from '../../components/Header';
 import * as Actions from './action';
 
@@ -13,6 +13,7 @@ class App extends Component{
         const {todos, actions} = this.props;
         return (
             <div style={{"backgroundColor":"red"}}>
+                1111222
                 <Header />
                 {/*<Content todos={todos} actions={actions} />*/}
             </div>
