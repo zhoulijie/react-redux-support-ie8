@@ -1,0 +1,129 @@
+.user-card {
+  width: 230px;
+  height: 165px;
+  overflow: hidden;
+}
+
+.user-card a {
+  text-decoration: none;
+  color: #000;
+}
+
+.user-card ul {
+  list-style: none;
+}
+
+.card-bg {
+  position: relative;
+  height: 75px;
+  background: url('./profile_cover.jpg') no-repeat center;
+}
+
+.head-pic {
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -30px;
+}
+
+.user-icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.user-info-wrap {
+  margin-top: 10px;
+  padding: 16px 16px 9px 16px;
+}
+
+.name-box {
+  height: 16px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.user-name {
+  max-width: 114px;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+}
+
+.level-icon {
+  margin-left: 3px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url('./icon.png') no-repeat;
+  background-position: 0 -200px;
+}
+
+.level-box {
+  margin-left: 3px;
+  width: 25px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  display: inline-block;
+  background-color: #ffb400;
+  border-radius: 8px;
+  padding: 0 5px 0 3px;
+}
+
+.level-num {
+  display: inline-block;
+  font-size: 12px;
+  font-family: Arial;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: -1.4px;
+  margin-top: -3px;
+  vertical-align: middle;
+}
+
+.user-atten {
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 34px;
+  overflow: hidden;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.user-atten li {
+  float: left;
+  width: 65px;
+  text-align: center;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #d9d9d9;
+}
+
+.user-atten li:last-child {
+  border: none;
+}
+
+.user-atten li strong {
+  display: block;
+  width: 65px;
+  line-height: 18px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.user-atten li span {
+  display: block;
+  font-size: 12px;
+  color: #808080;
+}
