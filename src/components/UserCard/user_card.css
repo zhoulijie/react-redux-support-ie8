@@ -2,6 +2,7 @@
   width: 230px;
   height: 165px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .user-card a {
