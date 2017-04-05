@@ -1,0 +1,12 @@
+.home-wrap{
+  width: 1000px;
+  min-height: 680px;
+  margin: 0 auto;
+  padding: 16px 0 0 0;
+  background-color: rgba(96, 50, 49, 0.25);
+}
+
+.home-main{
+  width: 850px;
+  display: inline-block;
+}

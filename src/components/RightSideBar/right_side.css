@@ -1,0 +1,7 @@
+.right-side-bar {
+  width: 230px;
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
