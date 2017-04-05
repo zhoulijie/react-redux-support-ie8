@@ -1,6 +1,6 @@
 {
   "name": "redux-react-support-IE8",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "description": "react-redux work in IE8",
   "main": "./src/index.js",
   "scripts": {
