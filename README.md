@@ -1,6 +1,6 @@
 ##redux+react+热加载+兼容IE8
 
-redux + react + webpack-hot-middleware + support IE8
+redux + react + react-router webpack-hot-middleware + support IE8
 
 ###使用
 ```
@@ -10,4 +10,8 @@ npm install
 npm start
 //build
 npm run build
+//lint js
+npm run lint
+
+
 ```
