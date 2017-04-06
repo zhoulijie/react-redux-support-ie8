@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import TodoItem from '../components/TodoItem';
+import TodoItem from './TodoItem';
 
 
 export default class Content extends Component{
